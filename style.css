@@ -1,0 +1,84 @@
+/* Adjust margin and padding */
+footer {
+    padding: 1px 0px 1px 0px;
+}
+  
+header div h1 {
+    margin-bottom: 0px;
+}
+
+header div h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+img, article {
+    padding: 20px 10px 10px 20px;
+}
+
+/* Light background - Dark text */
+body {
+    margin-top: -21px;
+    margin-bottom: -16px;
+    background-color: rgb(172, 229, 231);
+    color: rgb(43, 48, 47);
+}
+
+/* Dark background - Light text */
+header, footer {
+    background-color: rgb(43, 48, 47);
+    color: rgb(172, 229, 231);
+}
+
+/* Dark background - Light text */
+h1, h2, h3, p, li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+header, footer, h2 {
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+  .item {
+    flex: 1;
+    margin: 10px;
+}
+  
+  .item-double {
+    flex: 2;
+}
+
+  .item-triple {
+      flex: 3;
+}
+
+  .image-round {
+    height: auto;
+    border-radius: 20%; 
+}
+
+
+
+
+
+
+
+
+  @media all and (min-width: 800px) {
+    section, h1 {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+  }

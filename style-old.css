@@ -1,0 +1,51 @@
+/* Light background - Dark text */
+body {
+  margin-top: -21px;
+  margin-bottom: -16px;
+  background-color: rgb(172, 229, 231);
+  color: rgb(43, 48, 47);
+}
+
+/* Dark background - Light text */
+header, footer {
+  background-color: rgb(43, 48, 47);
+  color: rgb(172, 229, 231);
+}
+
+/* Expand footer box */
+footer {
+  padding: 8px;
+}
+
+/* Text Formatting */
+h1, h2, h3, p, li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p, li {
+  font-size: 18px;
+}
+
+/* Class Declarations */
+
+/* Page Cleanup */
+.wrapper {
+  width: 420px;
+  margin: auto;
+}
+
+/* Center text & headings */
+.center-text {
+  text-align: center;
+}
+
+/* image format and Rounded Corners Image */
+.image-round {
+  height: auto;
+  border-radius: 20%; 
+}
+
+/* Link Colors */
+a:link    { color:  blue;             }
+a:visited { color: red;               }
+a:hover   { color: hsl(135, 66%, 50%);}
+a:active  { color: hsl(303, 91%, 42%);}
