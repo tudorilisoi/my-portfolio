@@ -12,8 +12,10 @@ header div h3 {
     padding: 0px;
 }
 
+body
+
 img, article {
-    padding: 20px 10px 10px 20px;
+    padding: 20px 0px 10px 20px;
 }
 
 /* Light background - Dark text */
@@ -39,14 +41,14 @@ p, li {
     font-size: 18px;
 }
 
-header, footer, h2 {
-    text-align: center;
+/* Center text & headings */
+.center-text {
+  text-align: center;
 }
 
 .group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
 }
 
   .item {
@@ -64,6 +66,7 @@ header, footer, h2 {
 
   .image-round {
     height: auto;
+    width: 600px;
     border-radius: 20%; 
 }
 
