@@ -12,7 +12,33 @@ header div h3 {
     padding: 0px;
 }
 
-body
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color:rgb(43, 48, 47);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form textarea {
+    height: 50px;
+    width: 30%;
+    color: #000;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+form button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+  margin: 0 8px 10px 0;
+}
 
 img, article {
     padding: 20px 0px 10px 20px;
